@@ -16,6 +16,8 @@ app.use((req, res, next) => {
     next()
 })
 
+// End points
+
 app.use('/api/workouts', routerRoute)
 app.use('/api/user', userRoutes)
     
